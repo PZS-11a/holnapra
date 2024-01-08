@@ -1,0 +1,87 @@
+body {
+    background-image: url('_metin2_wallpaper__by_witind_dddl5mp-fullview.jpg'); /* Háttérkép URL-je */
+    background-size: cover; /* A háttérkép mérete teljes képernyőre terjed ki */
+    background-position: center; /* A háttérkép középre igazítása */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  /* A többi stílus változatlan marad, csak a body háttérképével kapcsolatos részeket mutattam be */
+  
+
+body {
+    background-color: #1a1a1a; /* Sötét háttér */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.452); /* Átlátszó háttér */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(185, 74, 74, 0.95) 0 0 20px rgba(0, 0, 0, 0.4); /* Árnyék */
+    
+  }
+  
+  .container {
+    border: 8px solid rgba(0, 0, 0, 0.31); /* Nagyobb sötétkék keret */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 90%; /* Növelt grid container szélesség */
+    max-width: 800px; /* Maximális szélesség */
+    height: 80%;
+    max-height: 600px;
+    gap: 15px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: rgba(116, 0, 0, 0.466); /* Világos szürke */
+    border-radius: 12px;
+  }
+  
+  .box {
+    background-color: #66a3ff; /* Világos piros */
+    border: 8px solid #22943a; /* Nagyobb sötétkék keret */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 2.8em; /* Betűméret növelése */
+    font-weight: bold;
+    color: #1a1a1a; /* Sötét szürke */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .box:hover {
+    transform: scale(1.1); /* Kicsit nagyobb lesz hover-re */
+  }
+
+  .timer {
+    
+    color: aliceblue;
+    font-size: 24px;
+  font-weight: bold;
+  position: absolute; /* Elhelyezzük abszolút pozícióban */
+  top: 20px; /* Felülről 20px-re */
+  }
+
+  h1{
+    text-align: center;
+    border: 8px solid #000000; 
+    border-radius: 15px;
+    padding: 10px;
+  }
+  
